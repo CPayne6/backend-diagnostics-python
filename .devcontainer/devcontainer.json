@@ -1,0 +1,9 @@
+{
+  "name": "Flask backend",
+  "build": {
+    "dockerfile": "Dockerfile"
+  },
+  "forwardPorts": [8000],
+  "extensions": ["ms-python.python"],
+  "remoteUser": "vscode"
+}
